@@ -1,0 +1,13 @@
+{
+ "team_tests": 6,
+ "ai_reviewer_catches": 16,
+ "ai_clean_reads": 4,
+ "ai_yes_on_clean": 4,
+ "ai_catches_count": false,
+ "ai_reads_run": 22,
+ "void_reads": 0,
+ "ai_said_yes_on_bugs": 17,
+ "referee": 5,
+ "dsa_takes_round": false,
+ "margin": -1
+}

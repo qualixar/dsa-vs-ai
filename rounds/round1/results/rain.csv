@@ -1,0 +1,5 @@
+problem,after_gate,survivors,of,ci95_low,ci95_high,out_here
+rain,examples,50,50,0.929,1.0,0
+rain,correctness,50,50,0.929,1.0,0
+rain,scale,50,50,0.929,1.0,0
+rain,sanity,50,50,0.929,1.0,0

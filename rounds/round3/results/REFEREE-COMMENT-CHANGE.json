@@ -1,0 +1,31 @@
+{
+ "note": "These comment lines changed after certification (two comments and one usage line in a docstring, removing private paths); the logic did not.",
+ "files": {
+  "referee_certify.py": {
+   "certified_sha256": "4fdabdb30cf5449cee1ba0f6b095cb9fe83d1d9efdd5c1d33deb69cfef761670",
+   "current_sha256": "1faffeca619a8de6c3b3de2f722c7104cdb0c67f67c5934a468ddc9c86e3870e",
+   "changed": [
+    {
+     "line": 3,
+     "from_column": 0
+    },
+    {
+     "line": 151,
+     "from_column": 31
+    }
+   ],
+   "sha256_with_changed_text_removed": "587354b91a3e68d95cdd6c1fe463f1a12fc393f3a1881466e346cd72b76c0c6f"
+  },
+  "scenarios_v3.py": {
+   "certified_sha256": "69346bd3bdd293f6c1a65cbc48e2eda24c5a68b333014cf9060553aaa665dbbf",
+   "current_sha256": "0d6ca3d07c2dd9fcb82a208de3991c45f7ba4e0c3f6a46f946a898467d6e812e",
+   "changed": [
+    {
+     "line": 32,
+     "from_column": 0
+    }
+   ],
+   "sha256_with_changed_text_removed": "8b63a23ce72ac334e509d403c33c3b5cf6970f57f6f18d0f17fb48799a600d8d"
+  }
+ }
+}

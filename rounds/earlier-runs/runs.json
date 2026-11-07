@@ -1,0 +1,70 @@
+{
+ "note": "Runs under earlier rules. None of them counts toward the result. Trial and probe runs that were voided for setup faults are not listed.",
+ "runs": [
+  {
+   "run": "first-setup-lead-and-members",
+   "rules": "money cap, 3 rounds per version, 30-minute session limit (resumed once at 2 hours)",
+   "outcome": "stopped: budget",
+   "versions_finished": [
+    "v1",
+    "v2"
+   ],
+   "shipped_defects": {}
+  },
+  {
+   "run": "first-setup-smallest-model",
+   "rules": "money cap, 3 rounds per version",
+   "outcome": "finished",
+   "versions_finished": [
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5"
+   ],
+   "shipped_defects": {}
+  },
+  {
+   "run": "second-setup-alone-1",
+   "rules": "money cap, 3 rounds per version, brief with a hole",
+   "outcome": "stopped: v3 never finished",
+   "versions_finished": [
+    "v1",
+    "v2"
+   ],
+   "shipped_defects": {}
+  },
+  {
+   "run": "second-setup-alone-2",
+   "rules": "money cap, 3 rounds per version, corrected brief",
+   "outcome": "stopped: v3 never finished",
+   "versions_finished": [
+    "v1",
+    "v2"
+   ],
+   "shipped_defects": {}
+  },
+  {
+   "run": "second-setup-supervised",
+   "rules": "money cap, 3 rounds per version, locked tests, referee last word",
+   "outcome": "stopped: v2 never finished",
+   "versions_finished": [
+    "v1"
+   ],
+   "shipped_defects": {}
+  },
+  {
+   "run": "practice-run",
+   "rules": "no money cap, up to 12 rounds per version",
+   "outcome": "finished",
+   "versions_finished": [
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5"
+   ],
+   "shipped_defects": {}
+  }
+ ]
+}

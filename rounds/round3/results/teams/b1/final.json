@@ -1,0 +1,13 @@
+{
+ "run": "b1",
+ "arm": "notes",
+ "outcome": "deadline: stopped in v3",
+ "scored": true,
+ "working_minutes": 155.1953,
+ "deadline_min": 150.0,
+ "stopped_in": "v3",
+ "versions_signed_done": [
+  "v1",
+  "v2"
+ ]
+}

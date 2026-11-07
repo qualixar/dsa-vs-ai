@@ -1,0 +1,40 @@
+{
+ "timings": [
+  {
+   "requests": 6,
+   "orders": 720,
+   "seconds": 0.0005
+  },
+  {
+   "requests": 7,
+   "orders": 5040,
+   "seconds": 0.0047
+  },
+  {
+   "requests": 8,
+   "orders": 40320,
+   "seconds": 0.0356
+  },
+  {
+   "requests": 9,
+   "orders": 362880,
+   "seconds": 0.3555
+  },
+  {
+   "requests": 10,
+   "orders": 3628800,
+   "seconds": 4.9183
+  },
+  {
+   "requests": 11,
+   "orders": 39916800,
+   "seconds": 47.2387
+  }
+ ],
+ "seconds_per_order": 1.1834290323873658e-06,
+ "predicted_20_requests_years": 91228.35454466922,
+ "orders_digits_1500": 4115,
+ "universe_ages_digits": 4092,
+ "smart_method_1500_seconds": 0.137,
+ "table_entries_1500_approx": 1128002
+}

@@ -1,0 +1,168 @@
+{
+ "nearest floor first": {
+  "examples": {
+   "cases": 3,
+   "wrong": 0
+  },
+  "edge": {
+   "cases": 7,
+   "wrong": 1,
+   "worst_pct_over": 14.6,
+   "smallest": {
+    "args": [
+     20,
+     10,
+     [
+      8,
+      13,
+      14,
+      15,
+      16,
+      17
+     ]
+    ],
+    "right": 41,
+    "got": 47
+   }
+  },
+  "small": {
+   "cases": 3000,
+   "wrong": 235,
+   "worst_pct_over": 68.8,
+   "smallest": {
+    "args": [
+     6,
+     3,
+     [
+      2,
+      4,
+      0
+     ]
+    ],
+    "right": 9,
+    "got": 11
+   }
+  },
+  "medium": {
+   "cases": 600,
+   "wrong": 221,
+   "worst_pct_over": 67.2
+  }
+ },
+ "always go up first": {
+  "examples": {
+   "cases": 3,
+   "wrong": 2,
+   "worst_pct_over": 40.0
+  },
+  "edge": {
+   "cases": 7,
+   "wrong": 0
+  },
+  "small": {
+   "cases": 3000,
+   "wrong": 592,
+   "worst_pct_over": 193.8,
+   "smallest": {
+    "args": [
+     4,
+     1,
+     [
+      0,
+      3
+     ]
+    ],
+    "right": 5,
+    "got": 7
+   }
+  },
+  "medium": {
+   "cases": 600,
+   "wrong": 277,
+   "worst_pct_over": 90.3
+  }
+ },
+ "closer side first, then the other": {
+  "examples": {
+   "cases": 3,
+   "wrong": 0
+  },
+  "edge": {
+   "cases": 7,
+   "wrong": 1,
+   "worst_pct_over": 14.6,
+   "smallest": {
+    "args": [
+     20,
+     10,
+     [
+      8,
+      13,
+      14,
+      15,
+      16,
+      17
+     ]
+    ],
+    "right": 41,
+    "got": 47
+   }
+  },
+  "small": {
+   "cases": 3000,
+   "wrong": 261,
+   "worst_pct_over": 167.6,
+   "smallest": {
+    "args": [
+     7,
+     2,
+     [
+      1,
+      6,
+      3
+     ]
+    ],
+    "right": 10,
+    "got": 14
+   }
+  },
+  "medium": {
+   "cases": 600,
+   "wrong": 239,
+   "worst_pct_over": 79.4
+  }
+ },
+ "busier side first, then the other": {
+  "examples": {
+   "cases": 3,
+   "wrong": 1,
+   "worst_pct_over": 40.0
+  },
+  "edge": {
+   "cases": 7,
+   "wrong": 0
+  },
+  "small": {
+   "cases": 3000,
+   "wrong": 667,
+   "worst_pct_over": 168.0,
+   "smallest": {
+    "args": [
+     4,
+     1,
+     [
+      0,
+      3
+     ]
+    ],
+    "right": 5,
+    "got": 7
+   }
+  },
+  "medium": {
+   "cases": 600,
+   "wrong": 305,
+   "worst_pct_over": 109.3
+  }
+ }
+}

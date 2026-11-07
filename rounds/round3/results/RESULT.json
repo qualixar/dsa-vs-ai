@@ -1,0 +1,381 @@
+{
+ "decision": {
+  "winner": "AI",
+  "final_score": {
+   "AI": 3,
+   "DSA": 0
+  },
+  "clean": {
+   "alone": 2,
+   "notes": 0
+  },
+  "versions_passed": {
+   "alone": [
+    5,
+    5
+   ],
+   "notes": [
+    3,
+    3
+   ]
+  },
+  "versions_total": {
+   "alone": 10,
+   "notes": 6
+  },
+  "sentence": "In this four-run case study, the team on its own shipped clean 2 of 2 times and passed 10 of 10 versions; the team with the architect's notes shipped clean 0 of 2 times and passed 6 of 10 versions. AI takes the round: it did the whole job alone, both times."
+ },
+ "runs": {
+  "a1": {
+   "run": "a1",
+   "arm": "alone",
+   "outcome": "deadline: stopped in v5",
+   "valid": true,
+   "clock": {
+    "working_minutes": 151.244,
+    "usage_pauses": 21
+   },
+   "passed": {
+    "v1": true,
+    "v2": true,
+    "v3": true,
+    "v4": true,
+    "v5": true
+   },
+   "first_failure": {},
+   "versions_passed": 5,
+   "clean": true,
+   "adjudicated": [],
+   "quality": {
+    "v1": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 39.9,
+     "worst_passenger": 157
+    },
+    "v2": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 27.4,
+     "worst_passenger": 98
+    },
+    "v3": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 33.5,
+     "worst_passenger": 237
+    },
+    "v4": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 41.7,
+     "worst_passenger": 264
+    },
+    "v5": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 197.4,
+     "worst_passenger": 540
+    },
+    "rush": {
+     "lobby_p95_worst": 508,
+     "upstairs_worst": 105
+    },
+    "riders_aboard_pct_above_optimum": 5.42
+   },
+   "honesty": {
+    "v1": {
+     "referee_agrees": true,
+     "first_failure": null
+    },
+    "v2": {
+     "referee_agrees": true,
+     "first_failure": null
+    },
+    "v3": {
+     "referee_agrees": true,
+     "first_failure": null
+    },
+    "v4": {
+     "referee_agrees": true,
+     "first_failure": null
+    }
+   }
+  },
+  "a2": {
+   "run": "a2",
+   "arm": "alone",
+   "outcome": "finished",
+   "valid": true,
+   "clock": {
+    "working_minutes": 80.3267,
+    "usage_pauses": 0
+   },
+   "passed": {
+    "v1": true,
+    "v2": true,
+    "v3": true,
+    "v4": true,
+    "v5": true
+   },
+   "first_failure": {},
+   "versions_passed": 5,
+   "clean": true,
+   "adjudicated": [],
+   "quality": {
+    "v1": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 39.1,
+     "worst_passenger": 146
+    },
+    "v2": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 26.2,
+     "worst_passenger": 92
+    },
+    "v3": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 32.6,
+     "worst_passenger": 192
+    },
+    "v4": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 39.9,
+     "worst_passenger": 260
+    },
+    "v5": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 178.7,
+     "worst_passenger": 463
+    },
+    "rush": {
+     "lobby_p95_worst": 426,
+     "upstairs_worst": 93
+    },
+    "riders_aboard_pct_above_optimum": 5.42
+   },
+   "honesty": {
+    "v1": {
+     "referee_agrees": true,
+     "first_failure": null
+    },
+    "v2": {
+     "referee_agrees": true,
+     "first_failure": null
+    },
+    "v3": {
+     "referee_agrees": true,
+     "first_failure": null
+    },
+    "v4": {
+     "referee_agrees": true,
+     "first_failure": null
+    },
+    "v5": {
+     "referee_agrees": true,
+     "first_failure": null
+    }
+   }
+  },
+  "b1": {
+   "run": "b1",
+   "arm": "notes",
+   "outcome": "deadline: stopped in v3",
+   "valid": true,
+   "clock": {
+    "working_minutes": 155.1953,
+    "usage_pauses": 21
+   },
+   "passed": {
+    "v1": true,
+    "v2": true,
+    "v3": true,
+    "v4": false,
+    "v5": false
+   },
+   "first_failure": {
+    "v4": {
+     "day": "v4-148955447307005",
+     "rule": "C1",
+     "detail": "[(433, \"set_mode raised TeamError: AttributeError: 'Dispatcher' object has no attribute 'set_mode'\"), (479, \"set_mode raised TeamError: AttributeError: 'Dispatcher' object has no attribute 'set_mode'\""
+    },
+    "v5": {
+     "day": "v5-111444708686109",
+     "rule": "T5c",
+     "detail": ""
+    }
+   },
+   "versions_passed": 3,
+   "clean": false,
+   "adjudicated": [],
+   "quality": {
+    "v1": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 38.7,
+     "worst_passenger": 155
+    },
+    "v2": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 28.3,
+     "worst_passenger": 139
+    },
+    "v3": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 33.8,
+     "worst_passenger": 213
+    },
+    "v4": {
+     "days_clean": 0,
+     "days": 50,
+     "mean_passenger_time": 44.4,
+     "worst_passenger": 498
+    },
+    "v5": {
+     "days_clean": 49,
+     "days": 50,
+     "mean_passenger_time": 175.8,
+     "worst_passenger": 451
+    },
+    "rush": {
+     "lobby_p95_worst": 424,
+     "upstairs_worst": 202
+    },
+    "riders_aboard_pct_above_optimum": 5.42
+   },
+   "honesty": {
+    "v1": {
+     "referee_agrees": true,
+     "first_failure": null
+    },
+    "v2": {
+     "referee_agrees": true,
+     "first_failure": null
+    }
+   }
+  },
+  "b2": {
+   "run": "b2",
+   "arm": "notes",
+   "outcome": "deadline: stopped in v2",
+   "valid": true,
+   "clock": {
+    "working_minutes": 153.6623,
+    "usage_pauses": 21
+   },
+   "passed": {
+    "v1": true,
+    "v2": true,
+    "v3": false,
+    "v4": false,
+    "v5": true
+   },
+   "first_failure": {
+    "v3": {
+     "day": "v3-10570903269991",
+     "rule": "C1",
+     "detail": "[(296, \"set_lift_available raised TeamError: AttributeError: 'Dispatcher' object has no attribute 'set_lift_available'\"), (318, \"set_lift_available raised TeamError: AttributeError: 'Dispatcher' objec"
+    },
+    "v4": {
+     "day": "v4-148955447307005",
+     "rule": "C1",
+     "detail": "[(414, \"set_lift_available raised TeamError: AttributeError: 'Dispatcher' object has no attribute 'set_lift_available'\"), (433, \"set_mode raised TeamError: AttributeError: 'Dispatcher' object has no a"
+    }
+   },
+   "versions_passed": 3,
+   "clean": false,
+   "adjudicated": [],
+   "quality": {
+    "v1": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 38.8,
+     "worst_passenger": 146
+    },
+    "v2": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 26.0,
+     "worst_passenger": 87
+    },
+    "v3": {
+     "days_clean": 0,
+     "days": 50,
+     "mean_passenger_time": 35.0,
+     "worst_passenger": 404
+    },
+    "v4": {
+     "days_clean": 0,
+     "days": 50,
+     "mean_passenger_time": 44.1,
+     "worst_passenger": 547
+    },
+    "v5": {
+     "days_clean": 50,
+     "days": 50,
+     "mean_passenger_time": 175.6,
+     "worst_passenger": 459
+    },
+    "rush": {
+     "lobby_p95_worst": 427,
+     "upstairs_worst": 85
+    },
+    "riders_aboard_pct_above_optimum": 8.92
+   },
+   "honesty": {
+    "v1": {
+     "referee_agrees": true,
+     "first_failure": null
+    }
+   }
+  }
+ },
+ "reference_quality": {
+  "v1": {
+   "days_clean": 50,
+   "days": 50,
+   "mean_passenger_time": 39.1,
+   "worst_passenger": 146
+  },
+  "v2": {
+   "days_clean": 50,
+   "days": 50,
+   "mean_passenger_time": 33.2,
+   "worst_passenger": 168
+  },
+  "v3": {
+   "days_clean": 50,
+   "days": 50,
+   "mean_passenger_time": 39.6,
+   "worst_passenger": 294
+  },
+  "v4": {
+   "days_clean": 50,
+   "days": 50,
+   "mean_passenger_time": 50.8,
+   "worst_passenger": 383
+  },
+  "v5": {
+   "days_clean": 50,
+   "days": 50,
+   "mean_passenger_time": 542.6,
+   "worst_passenger": 1381
+  },
+  "rush": {
+   "lobby_p95_worst": 1305,
+   "upstairs_worst": 140
+  },
+  "riders_aboard_pct_above_optimum": 7.36
+ },
+ "unevenness": [
+  "working minutes differ from 80 to 155",
+  "usage pauses: a1 21, a2 0, b1 21, b2 21"
+ ]
+}

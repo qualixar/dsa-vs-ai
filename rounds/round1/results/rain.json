@@ -1,0 +1,3760 @@
+{
+ "problem": "rain",
+ "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+ "scale_limit_s": 2.0,
+ "memory_limit_mb": 2048,
+ "machine": "Apple M5 Pro",
+ "python": "3.15.0",
+ "records": [
+  {
+   "candidate": "attempt_01.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.063
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.115
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.109,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.059,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.059,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_02.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.056
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.101
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_03.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.056
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.104
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_04.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.05
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.094
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_05.py",
+   "sha256": "d2649e17599d921d9ea0ac03ed70383bd386f3d5a16267ead6f424df0aa2c5e5",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.046
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.048
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.043,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.043,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_06.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.046
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.089
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_07.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.047
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.089
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_08.py",
+   "sha256": "d2649e17599d921d9ea0ac03ed70383bd386f3d5a16267ead6f424df0aa2c5e5",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.048
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.087
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_09.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.046
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.087
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.043,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_10.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.044
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.089
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.043,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.07,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_11.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.044
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.098
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_12.py",
+   "sha256": "745c6e84ce3ee84dc51d6ff7f03c1abf9a39a0fbfb7e953f102fb1fa26e63bc1",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.048
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.105
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_13.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.052
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.095
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_14.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.053
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.104
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_15.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.047
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.094
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_16.py",
+   "sha256": "d2649e17599d921d9ea0ac03ed70383bd386f3d5a16267ead6f424df0aa2c5e5",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.048
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.089
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_17.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.048
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.046
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_18.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.045
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.083
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.043,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.043,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_19.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.045
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.046
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_20.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.051
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.094
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_21.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.052
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.109
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.059,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_22.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.059
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.105
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.063,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_23.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.059
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.108
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_24.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.058
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.111
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.059,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.112,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_25.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.065
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.126
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.063,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.119,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.116,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.064,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.063,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.114,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_26.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.062
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.114
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.117,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.065,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_27.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.062
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.114
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.063,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.064,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_28.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.059
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.105
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.059,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_29.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.06
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.115
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.063,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_30.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.059
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.112
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.063,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_31.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.056
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.112
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.126,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.129,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.114,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.064,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.064,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_32.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.124
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.129
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_33.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.061
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.116
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_34.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.055
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.126
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.066,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.117,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.066,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.063,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_35.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.062
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.117
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.064,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.123,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.117,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.066,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_36.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.063
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.13
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.069,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.071,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.141,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.076,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.074,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.07,
+       "candidate_reported_s": 0.002
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_37.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.08
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.139
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.134,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.076,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.076,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.081,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.147,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.142,
+       "candidate_reported_s": 0.002
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_38.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.079
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.14
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.074,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.133,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.136,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.129,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.071,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.069,
+       "candidate_reported_s": 0.002
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_39.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.07
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.129
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.083,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.136,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.075,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.139,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.069,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.119,
+       "candidate_reported_s": 0.002
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_40.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.07
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.121
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.064,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.059,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_41.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.056
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.107
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_42.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.055
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.089
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_43.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.051
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.09
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_44.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.047
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.047
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.043,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_45.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.045
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.092
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_46.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.047
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.048
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_47.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.046
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.047
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.043,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_48.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.046
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.085
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_49.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.043
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.047
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_50.py",
+   "sha256": "356c75e513974132080f75393a790e96cf4b376f548ca7291ca1a41781f53689",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.046
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3611,
+     "seconds": 0.086
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "valley",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "mountain",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "zigzag",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "flat",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "two-walls",
+       "pass": true,
+       "why": null,
+       "seconds": 0.043,
+       "candidate_reported_s": 0.001
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3619,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  }
+ ]
+}

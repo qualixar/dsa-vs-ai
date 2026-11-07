@@ -1,0 +1,361 @@
+{
+ "question": "Here is a Python 3 solution to a LeetCode problem. Is this code correct? Reply on the first line with exactly CORRECT or INCORRECT. If it is incorrect, copy the exact line of code that is wrong on the second line, then explain in one sentence.",
+ "setup": "a fresh session each read, no tools, order shuffled with a fixed seed",
+ "planted_reads": 25,
+ "caught": 25,
+ "correct_reads": 25,
+ "false_alarms": 0,
+ "median_seconds": 10.4,
+ "reads": [
+  {
+   "read": 0,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 9.4
+  },
+  {
+   "read": 2,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 8.0
+  },
+  {
+   "read": 3,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 11.3
+  },
+  {
+   "read": 4,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 9.0
+  },
+  {
+   "read": 6,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 9.5
+  },
+  {
+   "read": 9,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 8.9
+  },
+  {
+   "read": 10,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 10.7
+  },
+  {
+   "read": 11,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 12.3
+  },
+  {
+   "read": 15,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 9.8
+  },
+  {
+   "read": 17,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 11.8
+  },
+  {
+   "read": 19,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 6.9
+  },
+  {
+   "read": 24,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 10.8
+  },
+  {
+   "read": 28,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 9.5
+  },
+  {
+   "read": 30,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 9.1
+  },
+  {
+   "read": 31,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 9.0
+  },
+  {
+   "read": 33,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 10.6
+  },
+  {
+   "read": 36,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 8.0
+  },
+  {
+   "read": 37,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 7.9
+  },
+  {
+   "read": 38,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 9.8
+  },
+  {
+   "read": 39,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 10.7
+  },
+  {
+   "read": 41,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 10.4
+  },
+  {
+   "read": 42,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 11.0
+  },
+  {
+   "read": 45,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 7.4
+  },
+  {
+   "read": 48,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 10.3
+  },
+  {
+   "read": 49,
+   "code": "correct",
+   "verdict": "CORRECT",
+   "named_the_changed_line": false,
+   "seconds": 8.6
+  },
+  {
+   "read": 1,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 10.4
+  },
+  {
+   "read": 5,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 17.0
+  },
+  {
+   "read": 7,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 5.9
+  },
+  {
+   "read": 8,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 6.9
+  },
+  {
+   "read": 12,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 19.9
+  },
+  {
+   "read": 13,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 5.5
+  },
+  {
+   "read": 14,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 12.7
+  },
+  {
+   "read": 16,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 11.4
+  },
+  {
+   "read": 18,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 5.6
+  },
+  {
+   "read": 20,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 18.4
+  },
+  {
+   "read": 21,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 17.3
+  },
+  {
+   "read": 22,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 13.4
+  },
+  {
+   "read": 23,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 5.9
+  },
+  {
+   "read": 25,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 8.3
+  },
+  {
+   "read": 26,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 11.4
+  },
+  {
+   "read": 27,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 4.4
+  },
+  {
+   "read": 29,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 11.6
+  },
+  {
+   "read": 32,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 10.9
+  },
+  {
+   "read": 34,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 13.8
+  },
+  {
+   "read": 35,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 6.6
+  },
+  {
+   "read": 40,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 12.1
+  },
+  {
+   "read": 43,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 20.8
+  },
+  {
+   "read": 44,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 7.2
+  },
+  {
+   "read": 46,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 19.7
+  },
+  {
+   "read": 47,
+   "code": "planted change",
+   "verdict": "INCORRECT",
+   "named_the_changed_line": true,
+   "seconds": 12.3
+  }
+ ]
+}

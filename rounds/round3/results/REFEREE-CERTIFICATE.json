@@ -1,0 +1,875 @@
+{
+ "sealed_hash": "8e1af7c006762dc3d2f06e7b2a27723590ad6e9cbb218d27ee688951aba9333a",
+ "salt": "aa3e799e572ab43c86a1bbe6004a2c74c04b8c8cfbaad35ee8ab50f1453eb1c1",
+ "limits": {
+  "everyone": {
+   "v1": 270,
+   "v2": 290,
+   "v3": 510,
+   "v4": 590,
+   "v5": 1850
+  },
+  "lobby_p95": 1760,
+  "upper": 190
+ },
+ "margin": 1.15,
+ "file_sha256": {
+  "scenarios_v3.py": "69346bd3bdd293f6c1a65cbc48e2eda24c5a68b333014cf9060553aaa665dbbf",
+  "sim.py": "12d71ce46ac424c3a87e1d2434ba3f36349146f85ef1dda0916d24928920ee9a",
+  "judge.py": "be25a82f84dbf4a6fe36d0677e2bee0d14ceac6ba654e260e890d523908944c3",
+  "team_host.py": "c24c22a3d2feaaeb23bf2f1e626f84c58c540ea669c5f8a5f7da9f4cce9d1844",
+  "baselines.py": "baec5d2413cd0cc5e8412576a946424c6f1e7bd371829c48d4ed8bd0bf98f27d",
+  "witness.py": "87ecda3239abbd4b55194e8aafbb82d74ecac10ccb5381f0798e5cce22ca238e",
+  "envelope_probes.py": "e9725b4c11bed9feeb3c5270f0cf3f2b6a15d8cd60a192e44fbd0b122ba218b8",
+  "calibrate_round3.py": "373b2eae1ba44b6bcc4453e88f457fdd6f19d2b5018c13de24b8669487d61c2e",
+  "referee_certify.py": "4fdabdb30cf5449cee1ba0f6b095cb9fe83d1d9efdd5c1d33deb69cfef761670",
+  "CALIBRATION-ROUND3.json": "b63d2b542834f0c82955fb725dc883430d7dcd11266cc00469d59c2bc9ee680a"
+ },
+ "families": {
+  "v1": {
+   "generated": 240,
+   "kept": 50,
+   "kept_seeds": [
+    164536293148869,
+    192624689748727,
+    19832452953636,
+    262340670134691,
+    261755506262279,
+    20084989381268,
+    52172334107515,
+    45138565438058,
+    279713280292896,
+    213140416311679,
+    253531269187550,
+    92477884984011,
+    265132089668960,
+    259353720756166,
+    141039268688004,
+    79950744660328,
+    85740669667118,
+    178715031561279,
+    231423801014655,
+    186876869664316,
+    93215576998094,
+    255983265510658,
+    107595843977335,
+    18638019322137,
+    1454441761468,
+    166436989519545,
+    267100889297700,
+    116979394638865,
+    196987895354184,
+    246264556365132,
+    229706025694656,
+    239308567685544,
+    34121664418327,
+    107588807596786,
+    94039660094527,
+    33692913721707,
+    153857623289701,
+    103630693670349,
+    16993451757351,
+    166931100202033,
+    87914028751495,
+    42726029486263,
+    70630109321299,
+    99883124556007,
+    18450060896655,
+    9512117627381,
+    209830481422566,
+    131124881070714,
+    96078702579230,
+    28132228161603
+   ],
+   "hardest_seeds": [
+    87914028751495,
+    42726029486263,
+    70630109321299,
+    99883124556007,
+    18450060896655,
+    9512117627381,
+    209830481422566,
+    131124881070714,
+    96078702579230,
+    28132228161603
+   ],
+   "dropped_on_margin": 0,
+   "not_chosen": 190,
+   "reference_worst": 146
+  },
+  "v2": {
+   "generated": 240,
+   "kept": 50,
+   "kept_seeds": [
+    139875869006273,
+    184931895738111,
+    241154740535455,
+    55181262106510,
+    169667102597766,
+    11275589509820,
+    164485472940714,
+    30827465768708,
+    260307093059560,
+    142429032073898,
+    201936161788590,
+    178595148834926,
+    69654965632422,
+    174168343007607,
+    189665073853443,
+    240486541666787,
+    4269442874712,
+    280180921777101,
+    243011899520474,
+    249645323968714,
+    248645909866005,
+    98810317035124,
+    93476349598684,
+    80909025233040,
+    280662591407555,
+    66730410599965,
+    209801969715942,
+    168286675175407,
+    100860008196049,
+    26704401485977,
+    137607836518194,
+    207440248902590,
+    100951633372735,
+    215537583267966,
+    209261815612582,
+    258525540463611,
+    147308231666743,
+    187288645914908,
+    112055098097292,
+    81244537401080,
+    88025111882680,
+    279829410983560,
+    226729714595883,
+    215176829198834,
+    142343080375711,
+    119876009424114,
+    183861628879884,
+    146619353601005,
+    24501031032915,
+    258045739238821
+   ],
+   "hardest_seeds": [
+    88025111882680,
+    279829410983560,
+    226729714595883,
+    215176829198834,
+    142343080375711,
+    119876009424114,
+    183861628879884,
+    146619353601005,
+    24501031032915,
+    258045739238821
+   ],
+   "dropped_on_margin": 0,
+   "not_chosen": 190,
+   "reference_worst": 168
+  },
+  "v3": {
+   "generated": 240,
+   "kept": 50,
+   "kept_seeds": [
+    10570903269991,
+    78644919674245,
+    1594721110907,
+    78448041834643,
+    93931338324166,
+    185066174053341,
+    160084074504619,
+    232043763717503,
+    187753925086101,
+    139587858938029,
+    161834410015467,
+    211293700796196,
+    13799638742153,
+    200891684895701,
+    173002451060180,
+    220401185490687,
+    50171600040003,
+    280086127170483,
+    90882671380357,
+    25003319486168,
+    9498920200527,
+    201859019091821,
+    243430363777620,
+    23089376134246,
+    105396194735702,
+    57528199018732,
+    63531026888706,
+    254564971667817,
+    24295476552313,
+    190257962082798,
+    145601736845368,
+    214896506734123,
+    80370944336315,
+    210526489253645,
+    64999885262031,
+    247319906268592,
+    205231759317729,
+    212068257166295,
+    156452972679758,
+    138019929514133,
+    21305250427257,
+    182723410833312,
+    249739241636547,
+    20838514394634,
+    255139222402800,
+    21164425522835,
+    226507625505493,
+    73835002761499,
+    7628151200260,
+    206861428012687
+   ],
+   "hardest_seeds": [
+    21305250427257,
+    182723410833312,
+    249739241636547,
+    20838514394634,
+    255139222402800,
+    21164425522835,
+    226507625505493,
+    73835002761499,
+    7628151200260,
+    206861428012687
+   ],
+   "dropped_on_margin": 0,
+   "not_chosen": 190,
+   "reference_worst": 294
+  },
+  "v4": {
+   "generated": 240,
+   "kept": 50,
+   "kept_seeds": [
+    148955447307005,
+    126060783121602,
+    203579186433478,
+    190982600188493,
+    18736341115267,
+    55117761230273,
+    121729978588803,
+    193470771112743,
+    174280670675533,
+    162497834961762,
+    245047956171469,
+    168257426263759,
+    197173170039917,
+    182947938530381,
+    209819443044564,
+    75998153557992,
+    135668782405535,
+    184925460620555,
+    272776704752308,
+    53790935745897,
+    239489466243384,
+    246597273297205,
+    202355588735027,
+    131735875307906,
+    90329659931077,
+    187430789851457,
+    196555602698707,
+    181544938075628,
+    116926401062493,
+    159319251842434,
+    84759291333399,
+    189113138741444,
+    124470329220862,
+    51742704376190,
+    255398006062951,
+    231458656728689,
+    49785365185628,
+    38464205809336,
+    148023845733838,
+    221662320248548,
+    44217877419208,
+    56248063757594,
+    15794903647508,
+    168967092693759,
+    73680198661895,
+    185614587868633,
+    7755785916240,
+    246689316071696,
+    61714986922237,
+    221811938309115
+   ],
+   "hardest_seeds": [
+    44217877419208,
+    56248063757594,
+    15794903647508,
+    168967092693759,
+    73680198661895,
+    185614587868633,
+    7755785916240,
+    246689316071696,
+    61714986922237,
+    221811938309115
+   ],
+   "dropped_on_margin": 0,
+   "not_chosen": 190,
+   "reference_worst": 383
+  },
+  "v5": {
+   "generated": 240,
+   "kept": 50,
+   "kept_seeds": [
+    101235469710485,
+    254265126991383,
+    138090365455750,
+    66042984031287,
+    173687190898769,
+    54030044707526,
+    272589123179791,
+    11803020480623,
+    22000913798257,
+    54019235089274,
+    184611499892963,
+    184177986316601,
+    214519885621182,
+    271518091864898,
+    29000527261960,
+    27169998655313,
+    18734261669779,
+    163519463593710,
+    14576077777671,
+    169013700578412,
+    36932832623408,
+    181747728450598,
+    140689390894156,
+    182208672659750,
+    279927182135197,
+    29413518216878,
+    39962226618477,
+    182514866606365,
+    36195710805854,
+    13209778254110,
+    243970635124380,
+    114728471619589,
+    7457528466591,
+    177587631246838,
+    25325562819536,
+    111640957805864,
+    158163138972568,
+    63919098714295,
+    120495164727031,
+    245681766965757,
+    192612352664868,
+    60632221863508,
+    150436905281490,
+    21711125692999,
+    188128906910233,
+    188110963935984,
+    57637439025088,
+    198611336398953,
+    45399355466174,
+    111444708686109
+   ],
+   "hardest_seeds": [
+    192612352664868,
+    60632221863508,
+    150436905281490,
+    21711125692999,
+    188128906910233,
+    188110963935984,
+    57637439025088,
+    198611336398953,
+    45399355466174,
+    111444708686109
+   ],
+   "dropped_on_margin": 1,
+   "not_chosen": 189,
+   "reference_worst": 1381
+  }
+ },
+ "riders_aboard_batches": 20,
+ "broken_dispatchers": {
+  "planted": 5,
+  "caught": 5,
+  "rows": {
+   "IgnoresFire": {
+    "expected_rule": "S2",
+    "caught": true,
+    "days_breaking_the_rule": 50,
+    "rules_seen": {
+     "S2": 50,
+     "L1": 14
+    },
+    "import_error": null
+   },
+   "MovesWhileOutOfService": {
+    "expected_rule": "S3",
+    "caught": true,
+    "days_breaking_the_rule": 100,
+    "rules_seen": {
+     "S3": 100
+    },
+    "import_error": null
+   },
+   "WrongCommandCount": {
+    "expected_rule": "C1",
+    "caught": true,
+    "days_breaking_the_rule": 250,
+    "rules_seen": {
+     "C1": 250,
+     "L1": 250,
+     "S2": 40,
+     "T5c": 50,
+     "T5b": 4
+    },
+    "import_error": null
+   },
+   "FallsThroughFloor": {
+    "expected_rule": "S1",
+    "caught": true,
+    "days_breaking_the_rule": 105,
+    "rules_seen": {
+     "S1": 105,
+     "S3": 9
+    },
+    "import_error": null
+   },
+   "OnlyCarCalls": {
+    "expected_rule": "L1",
+    "caught": true,
+    "days_breaking_the_rule": 250,
+    "rules_seen": {
+     "L1": 250,
+     "T5b": 50,
+     "T5c": 50
+    },
+    "import_error": null
+   }
+  }
+ },
+ "mutants": {
+  "fresh": {
+   "planted": 20,
+   "changed_a_trace": 17,
+   "broke_a_rule": 15,
+   "only_shifted_quality": 2,
+   "changed_nothing": 3,
+   "catch_rate": "15 of 17 planted bugs that change what the lifts do; 15 of 20 planted in all",
+   "rows": [
+    {
+     "bug": 0,
+     "kind": "true-false",
+     "line_no": 15,
+     "before": "self.fire = False",
+     "after": "self.fire = True",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 1,
+     "kind": "arithmetic",
+     "line_no": 14,
+     "before": "self.pos = [0] * lifts",
+     "after": "self.pos = [0] + lifts",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "C1"
+     }
+    },
+    {
+     "bug": 2,
+     "kind": "arithmetic",
+     "line_no": 12,
+     "before": "self.dir = [\"idle\"] * lifts",
+     "after": "self.dir = [\"idle\"] + lifts",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "C1"
+     }
+    },
+    {
+     "bug": 3,
+     "kind": "and-or",
+     "line_no": 57,
+     "before": "if here in targets and (self.opened_at[i] != here or here in self.car[i]):",
+     "after": "if here in targets and (self.opened_at[i] != here and here in self.car[i]):",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 4,
+     "kind": "comparison",
+     "line_no": 70,
+     "before": "if self.dir[i] == \"up\" and above or (self.dir[i] != \"down\" and above and not below):",
+     "after": "if self.dir[i] == \"up\" and above or (self.dir[i] == \"down\" and above and not below):",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 5,
+     "kind": "arithmetic",
+     "line_no": 16,
+     "before": "self.opened_at = [None] * lifts      # floor of the last open, until the lift moves",
+     "after": "self.opened_at = [None] + lifts      # floor of the last open, until the lift moves",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "C1"
+     }
+    },
+    {
+     "bug": 6,
+     "kind": "off-by-one",
+     "line_no": 55,
+     "before": "return \"down\" if here > 0 else \"open\"",
+     "after": "return \"down\" if here > 1 else \"open\"",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v4-148955447307005",
+      "rule": "S2"
+     }
+    },
+    {
+     "bug": 7,
+     "kind": "comparison",
+     "line_no": 36,
+     "before": "if l == lift:",
+     "after": "if l != lift:",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v3-249739241636547",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 8,
+     "kind": "comparison",
+     "line_no": 55,
+     "before": "return \"down\" if here > 0 else \"open\"",
+     "after": "return \"down\" if here >= 0 else \"open\"",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v4-148955447307005",
+      "rule": "S1"
+     }
+    },
+    {
+     "bug": 9,
+     "kind": "off-by-one",
+     "line_no": 14,
+     "before": "self.pos = [0] * lifts",
+     "after": "self.pos = [1] * lifts",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 10,
+     "kind": "arithmetic",
+     "line_no": 13,
+     "before": "self.up = [True] * lifts",
+     "after": "self.up = [True] + lifts",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "C1"
+     }
+    },
+    {
+     "bug": 11,
+     "kind": "and-or",
+     "line_no": 70,
+     "before": "if self.dir[i] == \"up\" and above or (self.dir[i] != \"down\" and above and not below):",
+     "after": "if self.dir[i] == \"up\" and above or (self.dir[i] != \"down\" or above or not below):",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 12,
+     "kind": "comparison",
+     "line_no": 62,
+     "before": "if self.opened_at[i] == here:          # just opened here (likely full): move on first",
+     "after": "if self.opened_at[i] != here:          # just opened here (likely full): move on first",
+     "changed_trace": true,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 13,
+     "kind": "true-false",
+     "line_no": 13,
+     "before": "self.up = [True] * lifts",
+     "after": "self.up = [False] * lifts",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 14,
+     "kind": "and-or",
+     "line_no": 40,
+     "before": "live = [i for i in range(self.n) if self.up[i]] or list(range(self.n))",
+     "after": "live = [i for i in range(self.n) if self.up[i]] and list(range(self.n))",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v3-10570903269991",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 15,
+     "kind": "comparison",
+     "line_no": 69,
+     "before": "below = any(f < here for f in targets)",
+     "after": "below = any(f <= here for f in targets)",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 16,
+     "kind": "arithmetic",
+     "line_no": 63,
+     "before": "targets = targets - {here}",
+     "after": "targets = targets + {here}",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "C1"
+     }
+    },
+    {
+     "bug": 17,
+     "kind": "comparison",
+     "line_no": 77,
+     "before": "return \"up\" if self.dir[i] == \"up\" else \"down\"",
+     "after": "return \"up\" if self.dir[i] != \"up\" else \"down\"",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 18,
+     "kind": "comparison",
+     "line_no": 70,
+     "before": "if self.dir[i] == \"up\" and above or (self.dir[i] != \"down\" and above and not below):",
+     "after": "if self.dir[i] != \"up\" and above or (self.dir[i] != \"down\" and above and not below):",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 19,
+     "kind": "arithmetic",
+     "line_no": 41,
+     "before": "return min(live, key=lambda i: (abs(self.pos[i] - floor), i))",
+     "after": "return min(live, key=lambda i: (abs(self.pos[i] + floor), i))",
+     "changed_trace": true,
+     "broke_rule": false,
+     "first": null
+    }
+   ]
+  },
+  "existing": {
+   "planted": 20,
+   "changed_a_trace": 9,
+   "broke_a_rule": 6,
+   "only_shifted_quality": 3,
+   "changed_nothing": 11,
+   "catch_rate": "6 of 9 planted bugs that change what the lifts do; 6 of 20 planted in all",
+   "rows": [
+    {
+     "bug": 0,
+     "kind": "off-by-one",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-262340670134691",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 1,
+     "kind": "off-by-one",
+     "changed_trace": true,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 2,
+     "kind": "and-or",
+     "changed_trace": true,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 3,
+     "kind": "off-by-one",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 4,
+     "kind": "comparison",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 5,
+     "kind": "comparison",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 6,
+     "kind": "comparison",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 7,
+     "kind": "min-max",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v2-139875869006273",
+      "rule": "C1"
+     }
+    },
+    {
+     "bug": 8,
+     "kind": "off-by-one",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 9,
+     "kind": "comparison",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 10,
+     "kind": "off-by-one",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 11,
+     "kind": "off-by-one",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 12,
+     "kind": "comparison",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 13,
+     "kind": "comparison",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-164536293148869",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 14,
+     "kind": "true-false",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 15,
+     "kind": "off-by-one",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 16,
+     "kind": "comparison",
+     "changed_trace": true,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 17,
+     "kind": "off-by-one",
+     "changed_trace": true,
+     "broke_rule": true,
+     "first": {
+      "day": "v1-192624689748727",
+      "rule": "L1"
+     }
+    },
+    {
+     "bug": 18,
+     "kind": "off-by-one",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    },
+    {
+     "bug": 19,
+     "kind": "and-or",
+     "changed_trace": false,
+     "broke_rule": false,
+     "first": null
+    }
+   ],
+   "unchanged_code_first_failures": {
+    "v1": null,
+    "v2": null
+   }
+  }
+ },
+ "climax_day": "v4-148955447307005"
+}

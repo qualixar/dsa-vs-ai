@@ -1,0 +1,5 @@
+problem,after_gate,survivors,of,ci95_low,ci95_high,out_here
+elevator,examples,50,50,0.929,1.0,0
+elevator,correctness,50,50,0.929,1.0,0
+elevator,scale,50,50,0.929,1.0,0
+elevator,sanity,50,50,0.929,1.0,0

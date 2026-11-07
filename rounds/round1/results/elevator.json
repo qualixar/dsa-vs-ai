@@ -1,0 +1,4110 @@
+{
+ "problem": "elevator",
+ "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+ "scale_limit_s": 2.0,
+ "memory_limit_mb": 2048,
+ "machine": "Apple M5 Pro",
+ "python": "3.15.0",
+ "records": [
+  {
+   "candidate": "attempt_01.py",
+   "sha256": "b9af19e2cad26b87128f6d969d59c72c28cd38183bb468bcfb7352480151f445",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.072
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.16
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.22,
+       "candidate_reported_s": 0.154
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.155,
+       "candidate_reported_s": 0.093
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.144,
+       "candidate_reported_s": 0.065
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_02.py",
+   "sha256": "74106a03a2ee5cf304647430d1aefeeb6ac024e4f85261b45b5af18d33f788f3",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.047
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.11
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.253,
+       "candidate_reported_s": 0.158
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.065,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.059,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.245,
+       "candidate_reported_s": 0.165
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.204,
+       "candidate_reported_s": 0.132
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_03.py",
+   "sha256": "0ba663f0aef414b54bc1ef74e2a7c184272843faa2247270bcd37375ce6961ab",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.083
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.106
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.203,
+       "candidate_reported_s": 0.125
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.012
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.01
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.01
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.141,
+       "candidate_reported_s": 0.073
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.107,
+       "candidate_reported_s": 0.065
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_04.py",
+   "sha256": "df28fbce070866154c5a92ceddd4d651121c22b7dfa93a3eb8cca251206744b7",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.06
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.183
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.228,
+       "candidate_reported_s": 0.135
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.063,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.113,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.162,
+       "candidate_reported_s": 0.095
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.152,
+       "candidate_reported_s": 0.069
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_05.py",
+   "sha256": "3412619ce00ccc7ba1a0ecb30bda97907082298e4214dde048a22530f77ca3ea",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.053
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.097
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.145,
+       "candidate_reported_s": 0.089
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.136,
+       "candidate_reported_s": 0.065
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.098,
+       "candidate_reported_s": 0.05
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_06.py",
+   "sha256": "c2f370a4869f02fb9bf8464c4c57011e25565405d42fcaae069b76acf8256983",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.074
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.233
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.432,
+       "candidate_reported_s": 0.311
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.158,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.158,
+       "candidate_reported_s": 0.004
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.192,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.24,
+       "candidate_reported_s": 0.004
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.557,
+       "candidate_reported_s": 0.382
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.286,
+       "candidate_reported_s": 0.164
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_07.py",
+   "sha256": "a2d8f8a13639d25b8666c4e9068211639ab5cff1bfc1215627035770c8aadade",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.096
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.2
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.332,
+       "candidate_reported_s": 0.206
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.07,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.077,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.07,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.073,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.269,
+       "candidate_reported_s": 0.169
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.203,
+       "candidate_reported_s": 0.117
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_08.py",
+   "sha256": "6cdfab06fde6dc171a4ecabe3336ea95581ebe1de9724cb3d1906ecb10c73080",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.138
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.231
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.36,
+       "candidate_reported_s": 0.254
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.072,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.072,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.072,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.072,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.336,
+       "candidate_reported_s": 0.227
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.25,
+       "candidate_reported_s": 0.138
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_09.py",
+   "sha256": "a7047378a61a71607ae2bda018bb9492e7c8d290ecb38ea2f1461dcd6df4c4e1",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.174
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.242
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.09,
+       "candidate_reported_s": 0.007
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.087,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.105,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.091,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.097,
+       "candidate_reported_s": 0.003
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.104,
+       "candidate_reported_s": 0.011
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.109,
+       "candidate_reported_s": 0.005
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_10.py",
+   "sha256": "74e9d63390cb73b68b62bfcf4af8ef96d4ec2f17ccceab7380422e4625b9dc7a",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.109
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.707
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.178,
+       "candidate_reported_s": 0.055
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.119,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.174,
+       "candidate_reported_s": 0.027
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.178,
+       "candidate_reported_s": 0.018
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.182,
+       "candidate_reported_s": 0.019
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.257,
+       "candidate_reported_s": 0.074
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.187,
+       "candidate_reported_s": 0.05
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_11.py",
+   "sha256": "2d618592f88c67b4198ffdf1defb9809dcbd8db80b5708ce30f5841d85bcf355",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.063
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.095
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.14,
+       "candidate_reported_s": 0.085
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.131,
+       "candidate_reported_s": 0.058
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.093,
+       "candidate_reported_s": 0.045
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_12.py",
+   "sha256": "719bd925a23973c95c312934102103313e49b7c02c6cd566c3c9edd58286b674",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.048
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.211
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.242,
+       "candidate_reported_s": 0.166
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.09,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.129,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.122,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.132,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.25,
+       "candidate_reported_s": 0.137
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.198,
+       "candidate_reported_s": 0.111
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_13.py",
+   "sha256": "172e2ea27e546d2db00cbdafd3f13712b6e4934d0e358ac5988ea4c694f08bf8",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.163
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.357
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.102,
+       "candidate_reported_s": 0.016
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.101,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.099,
+       "candidate_reported_s": 0.015
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.101,
+       "candidate_reported_s": 0.015
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.151,
+       "candidate_reported_s": 0.014
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.093,
+       "candidate_reported_s": 0.014
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.096,
+       "candidate_reported_s": 0.012
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_14.py",
+   "sha256": "8a195e9a12c11ad738a5ab4e69dabe67c3894201668e1941c69af187af7bd92e",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.051
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.187
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.29,
+       "candidate_reported_s": 0.183
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.064,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.063,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.063,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.225,
+       "candidate_reported_s": 0.139
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.194,
+       "candidate_reported_s": 0.097
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_15.py",
+   "sha256": "0964fcca8b519f27e303eb234db634f26f8c8133b1aa9ea2d3b4d95fb9d6c66c",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.133
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.102
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.151,
+       "candidate_reported_s": 0.108
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.141,
+       "candidate_reported_s": 0.076
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.091,
+       "candidate_reported_s": 0.054
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_16.py",
+   "sha256": "7c5bd29fd852d4c6ef918d0168bb66f54740d729e6ce4f7270a28b44a3565459",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.054
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.098
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.141,
+       "candidate_reported_s": 0.094
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.171,
+       "candidate_reported_s": 0.093
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.17,
+       "candidate_reported_s": 0.086
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_17.py",
+   "sha256": "76786c49c6459ddde0a47922f78a41c6f847cd05adea43bdec14ffe23e057c93",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.064
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.214
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.311,
+       "candidate_reported_s": 0.197
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.114,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.064,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.064,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.065,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.164,
+       "candidate_reported_s": 0.112
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.158,
+       "candidate_reported_s": 0.079
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_18.py",
+   "sha256": "e85eb4d1b91a54cb0e644a91b188c27d9a3d75d3baaabd7973ce0c7af21463d2",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.048
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.093
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.137,
+       "candidate_reported_s": 0.094
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.064,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.138,
+       "candidate_reported_s": 0.081
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.102,
+       "candidate_reported_s": 0.059
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_19.py",
+   "sha256": "f8abe2d195edb69c5d5ae9f4b7301eceff11e21dc239ed89727d0a40a6c812d2",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.053
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.168
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.23,
+       "candidate_reported_s": 0.146
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.108,
+       "candidate_reported_s": 0.016
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.137,
+       "candidate_reported_s": 0.009
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.13,
+       "candidate_reported_s": 0.013
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.225,
+       "candidate_reported_s": 0.133
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.175,
+       "candidate_reported_s": 0.102
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_20.py",
+   "sha256": "7e345e53d51f645c110385de320ec84faca4c16708b5540a67531cda04d87443",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.192
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.207
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.26,
+       "candidate_reported_s": 0.179
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.077,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.236,
+       "candidate_reported_s": 0.134
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.151,
+       "candidate_reported_s": 0.079
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_21.py",
+   "sha256": "98c26fc94ef98f4d7a1631c18150af2be3663e85fbccb4cfb6cb642dbf8b7587",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.067
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.089
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.169,
+       "candidate_reported_s": 0.079
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.128,
+       "candidate_reported_s": 0.062
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.093,
+       "candidate_reported_s": 0.047
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_22.py",
+   "sha256": "8f8f3732a2b399ed685a036ccf3e8a25d00d7654ec9484dc7a0bc7a38b1d8fb1",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.092
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.248
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.106,
+       "candidate_reported_s": 0.011
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.105,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.103,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.104,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.111,
+       "candidate_reported_s": 0.007
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.105,
+       "candidate_reported_s": 0.015
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.101,
+       "candidate_reported_s": 0.005
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_23.py",
+   "sha256": "8d11c4d23ce78f300bff360a9301295c7762e94fa25adefe78de12095d626170",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.058
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.104
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.146,
+       "candidate_reported_s": 0.108
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.129,
+       "candidate_reported_s": 0.063
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.088,
+       "candidate_reported_s": 0.047
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_24.py",
+   "sha256": "833bae5c18275c2adf783dee14dd68631a84c6cc036d5882f8f0439e9282c58c",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.096
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.262
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.086,
+       "candidate_reported_s": 0.019
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.084,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.101,
+       "candidate_reported_s": 0.02
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.089,
+       "candidate_reported_s": 0.02
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.1,
+       "candidate_reported_s": 0.021
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.1,
+       "candidate_reported_s": 0.021
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.093,
+       "candidate_reported_s": 0.022
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_25.py",
+   "sha256": "69f41823d2e34432f591b6b854c7319f09442bdfdecdc0fa4ba08c83939a2e57",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.049
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.108
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.206,
+       "candidate_reported_s": 0.133
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.056,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.153,
+       "candidate_reported_s": 0.092
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.143,
+       "candidate_reported_s": 0.065
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_26.py",
+   "sha256": "034be67c22ed8fe377b55102388a51aa63fd1f89ef3fdcff8d2eadeb30202aae",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.056
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.089
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.134,
+       "candidate_reported_s": 0.077
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.092,
+       "candidate_reported_s": 0.06
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.093,
+       "candidate_reported_s": 0.046
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_27.py",
+   "sha256": "437c6fc97f0681baa0617de7ac7f0405a5edf2ee3ae98fc227d80b910c715b34",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.044
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.104
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.141,
+       "candidate_reported_s": 0.076
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.148,
+       "candidate_reported_s": 0.07
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.104,
+       "candidate_reported_s": 0.058
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_28.py",
+   "sha256": "d377873c0c5b76d5fb488219c25dba4ad9bc54fea2de9289a7d178347c911fd4",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.047
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.094
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.139,
+       "candidate_reported_s": 0.103
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.065,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.147,
+       "candidate_reported_s": 0.091
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.122,
+       "candidate_reported_s": 0.084
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_29.py",
+   "sha256": "10307a1941c16d8ad3496ff676a0078f98a2d55345460f051eee3fcd77599815",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.058
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.112
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.145,
+       "candidate_reported_s": 0.097
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.137,
+       "candidate_reported_s": 0.067
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.095,
+       "candidate_reported_s": 0.051
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_30.py",
+   "sha256": "808121e13b7402ebe3fe3ddf3146586437e056413c3e58f0bac6e9db2538f42a",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.094
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.091
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.136,
+       "candidate_reported_s": 0.093
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.135,
+       "candidate_reported_s": 0.077
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.094,
+       "candidate_reported_s": 0.053
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_31.py",
+   "sha256": "cff48277f4a176b1f747313659bb430c50b416fe5c4ea1d5fd9917bde93aadf1",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.048
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.104
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.145,
+       "candidate_reported_s": 0.083
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.14,
+       "candidate_reported_s": 0.065
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.1,
+       "candidate_reported_s": 0.056
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_32.py",
+   "sha256": "9d4d0ee22ab633b7ad87d4c538478b22fdfc0afc8469043c10ddca373f1f472d",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.053
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.115
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.22,
+       "candidate_reported_s": 0.133
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.06,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.172,
+       "candidate_reported_s": 0.101
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.166,
+       "candidate_reported_s": 0.078
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_33.py",
+   "sha256": "84a4d51484bdb1a6d233c94455102e6f9a3a7ecf86af36e1c30d1c91891aac0a",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.059
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.111
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.217,
+       "candidate_reported_s": 0.127
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.061,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.172,
+       "candidate_reported_s": 0.103
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.164,
+       "candidate_reported_s": 0.077
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_34.py",
+   "sha256": "b78da96fea31780ace76d5dbdda98fd1173b27b2d7cddbec735aed04f72cae88",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.059
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.109
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.156,
+       "candidate_reported_s": 0.104
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.002
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.164,
+       "candidate_reported_s": 0.093
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.161,
+       "candidate_reported_s": 0.073
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_35.py",
+   "sha256": "c77d9bda3d942f1d8f2fa81dd723b23a0f840fe238c848ef35fa12ab7eaa1781",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.057
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.094
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.173,
+       "candidate_reported_s": 0.115
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.134,
+       "candidate_reported_s": 0.093
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.13,
+       "candidate_reported_s": 0.064
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_36.py",
+   "sha256": "7b9ffc9f4b6301aa26268c7b5e2245c3a48795afaee621514bd5987634313dd7",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.054
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.157
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.262,
+       "candidate_reported_s": 0.169
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.07,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.103,
+       "candidate_reported_s": 0.014
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.106,
+       "candidate_reported_s": 0.015
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.121,
+       "candidate_reported_s": 0.016
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.221,
+       "candidate_reported_s": 0.172
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.214,
+       "candidate_reported_s": 0.115
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_37.py",
+   "sha256": "59597df6981120b435a5b311ccb7237fb9ad978271648abd7de374f20c0bf8cd",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.054
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.092
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.133,
+       "candidate_reported_s": 0.074
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.044,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.045,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.09,
+       "candidate_reported_s": 0.057
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.087,
+       "candidate_reported_s": 0.042
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_38.py",
+   "sha256": "73ac9405950567563d8c9e05eda98e3b2e55168fc0f535f72db3238968fc3b6e",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.047
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.092
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.178,
+       "candidate_reported_s": 0.101
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.136,
+       "candidate_reported_s": 0.076
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.1,
+       "candidate_reported_s": 0.059
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_39.py",
+   "sha256": "38ea2914a6b4a13f2494afe0c107a04834c7b6933adb8cceb6348dbd8d3bbc34",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.057
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.111
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.14,
+       "candidate_reported_s": 0.085
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.097,
+       "candidate_reported_s": 0.058
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.09,
+       "candidate_reported_s": 0.044
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_40.py",
+   "sha256": "3d6d7ca0e4e41f8bcb9e29e5afd38c4af4abdee5c286030486c8dde09a3a39d0",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.092
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.201
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.098,
+       "candidate_reported_s": 0.007
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.095,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.094,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.092,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.109,
+       "candidate_reported_s": 0.004
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.101,
+       "candidate_reported_s": 0.01
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.092,
+       "candidate_reported_s": 0.003
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_41.py",
+   "sha256": "5c4b53a55d9ce931177d8715ffd56c7b80deaadd50d93e09e30057d69baf084b",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.051
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.105
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.144,
+       "candidate_reported_s": 0.087
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.049,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.051,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.156,
+       "candidate_reported_s": 0.085
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.147,
+       "candidate_reported_s": 0.066
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_42.py",
+   "sha256": "830b225570bfc5f85869bb9071cff9c8d2480f615ac4150119e93cc6849d98ea",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.094
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.306
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.09,
+       "candidate_reported_s": 0.025
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.087,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.091,
+       "candidate_reported_s": 0.024
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.089,
+       "candidate_reported_s": 0.024
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.089,
+       "candidate_reported_s": 0.025
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.09,
+       "candidate_reported_s": 0.025
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.094,
+       "candidate_reported_s": 0.025
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_43.py",
+   "sha256": "c55d71ebec48bb7f27423e01337321c29fd073ba5ae246b622fb1dad8faa068b",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.051
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.107
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.151,
+       "candidate_reported_s": 0.104
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.05,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.151,
+       "candidate_reported_s": 0.078
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.102,
+       "candidate_reported_s": 0.061
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_44.py",
+   "sha256": "de518d318344cb559cdc5e3c58a6d5e23fc80d48a1a16458acee5e895f3091d0",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.054
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.088
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.177,
+       "candidate_reported_s": 0.114
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.041,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.14,
+       "candidate_reported_s": 0.105
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.13,
+       "candidate_reported_s": 0.072
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_45.py",
+   "sha256": "0b5349a48894b19dc2049dd834078f238310a4314b5accf46be2ae520d81a851",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.047
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.099
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.142,
+       "candidate_reported_s": 0.086
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.046,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.091,
+       "candidate_reported_s": 0.057
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.088,
+       "candidate_reported_s": 0.043
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_46.py",
+   "sha256": "e194ae913eb142aefa6678d7afc5bea67d62c6e552383de3939ba9f657edd877",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.09
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.207
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.097,
+       "candidate_reported_s": 0.006
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.096,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.106,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.1,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.118,
+       "candidate_reported_s": 0.005
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.094,
+       "candidate_reported_s": 0.01
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.093,
+       "candidate_reported_s": 0.004
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_47.py",
+   "sha256": "4a1489e0fabfe72ff89af7058628c1fe71053e1d69bec7744ce3339536dcfb2f",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.054
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.123
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.227,
+       "candidate_reported_s": 0.146
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.062,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.059,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.058,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.155,
+       "candidate_reported_s": 0.088
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.148,
+       "candidate_reported_s": 0.07
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_48.py",
+   "sha256": "04b0daf95c821463f8cfac1208a1f4496cda6d63767cd4f5a75a340bec8b4be4",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.05
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.118
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.152,
+       "candidate_reported_s": 0.08
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.047,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.048,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.145,
+       "candidate_reported_s": 0.072
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.095,
+       "candidate_reported_s": 0.056
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_49.py",
+   "sha256": "4e96240a34d6885be76609f8ed32391f91e77741a5fb344ec6266dfcd1435813",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.047
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.105
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.156,
+       "candidate_reported_s": 0.103
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.055,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.054,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.172,
+       "candidate_reported_s": 0.105
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.156,
+       "candidate_reported_s": 0.078
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  },
+  {
+   "candidate": "attempt_50.py",
+   "sha256": "de6a5d71f9e27edff1ca5f4f8ea98e89b798f83b9d18f6dc6a16cee85fe93048",
+   "harness_fingerprint": "a70fee8304f618f752746044dc9da24ac61c1cfaf6280ab24392a6aa3ab786b9",
+   "flags": [],
+   "gates": {
+    "examples": {
+     "pass": true,
+     "fail": null,
+     "seconds": 0.055
+    },
+    "correctness": {
+     "pass": true,
+     "fail": null,
+     "mismatches": 0,
+     "of": 3607,
+     "seconds": 0.091
+    },
+    "scale": {
+     "pass": true,
+     "cases": [
+      {
+       "case": "random",
+       "pass": true,
+       "why": null,
+       "seconds": 0.153,
+       "candidate_reported_s": 0.1
+      },
+      {
+       "case": "one-far-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.052,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-is-a-request",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "start-bottom",
+       "pass": true,
+       "why": null,
+       "seconds": 0.057,
+       "candidate_reported_s": 0.0
+      },
+      {
+       "case": "start-top",
+       "pass": true,
+       "why": null,
+       "seconds": 0.053,
+       "candidate_reported_s": 0.001
+      },
+      {
+       "case": "dense-around-start",
+       "pass": true,
+       "why": null,
+       "seconds": 0.158,
+       "candidate_reported_s": 0.085
+      },
+      {
+       "case": "lopsided",
+       "pass": true,
+       "why": null,
+       "seconds": 0.157,
+       "candidate_reported_s": 0.084
+      }
+     ]
+    },
+    "sanity": {
+     "pass": true,
+     "checked": 3617,
+     "broken": [],
+     "broken_count": 0
+    }
+   },
+   "first_fail": null,
+   "survived": true
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "status": "unscored observation, after the result; changes nothing",
+ "rows": {
+  "b2-v2": [
+   {
+    "working_minutes": 23.33,
+    "passes_all_so_far": true,
+    "first_failure": null
+   },
+   {
+    "working_minutes": 33.89,
+    "passes_all_so_far": true,
+    "first_failure": null
+   }
+  ],
+  "b1-v3": [
+   {
+    "working_minutes": 60.66,
+    "passes_all_so_far": true,
+    "first_failure": null
+   },
+   {
+    "working_minutes": 75.16,
+    "passes_all_so_far": true,
+    "first_failure": null
+   }
+  ],
+  "a1-v4": [
+   {
+    "working_minutes": 33.96,
+    "passes_all_so_far": true,
+    "first_failure": null
+   },
+   {
+    "working_minutes": 42.6,
+    "passes_all_so_far": true,
+    "first_failure": null
+   }
+  ],
+  "a1-v5": [
+   {
+    "working_minutes": 90.38,
+    "passes_all_so_far": true,
+    "first_failure": null
+   },
+   {
+    "working_minutes": 96.69,
+    "passes_all_so_far": true,
+    "first_failure": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "total": 2000,
+ "tally": {
+  "examples": 1499,
+  "survived": 283,
+  "edge": 182,
+  "small": 36
+ },
+ "by_kind": {
+  "arithmetic": {
+   "examples": 657,
+   "edge": 71,
+   "survived": 6,
+   "small": 13
+  },
+  "off-by-one": {
+   "examples": 723,
+   "survived": 180,
+   "edge": 108,
+   "small": 22
+  },
+  "min-max": {
+   "examples": 20,
+   "survived": 2
+  },
+  "and-or": {
+   "examples": 9,
+   "survived": 1
+  },
+  "comparison": {
+   "examples": 78,
+   "survived": 94,
+   "edge": 3,
+   "small": 1
+  },
+  "true-false": {
+   "examples": 12
+  }
+ }
+}

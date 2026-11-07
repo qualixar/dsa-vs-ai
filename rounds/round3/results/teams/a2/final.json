@@ -1,0 +1,16 @@
+{
+ "run": "a2",
+ "arm": "alone",
+ "outcome": "finished",
+ "scored": true,
+ "working_minutes": 80.3267,
+ "deadline_min": 150.0,
+ "stopped_in": "v5",
+ "versions_signed_done": [
+  "v1",
+  "v2",
+  "v3",
+  "v4",
+  "v5"
+ ]
+}

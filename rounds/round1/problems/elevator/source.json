@@ -1,0 +1,29 @@
+{
+ "id": "4023",
+ "examples": [
+  "6\r\n4\r\n[1,5]\r",
+  "8\r\n3\r\n[3,7,1]\r",
+  "10\r\n5\r\n[0,2,9]\r"
+ ],
+ "meta": {
+  "name": "elevatorRequests",
+  "params": [
+   {
+    "name": "n",
+    "type": "integer"
+   },
+   {
+    "type": "integer",
+    "name": "start"
+   },
+   {
+    "type": "integer[]",
+    "name": "requests"
+   }
+  ],
+  "return": {
+   "type": "long"
+  }
+ },
+ "python": "class Solution:\n    def elevatorRequests(self, n: int, start: int, requests: list[int]) -> int:\n        "
+}

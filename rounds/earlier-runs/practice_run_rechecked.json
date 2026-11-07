@@ -1,0 +1,97 @@
+{
+ "status": "unscored: this code ran under a different brief, with the roadmap in view and no deadline",
+ "old_brief_limits": {
+  "v1": {
+   "generated": 50,
+   "excluded_reference_fails_old_limit": 2,
+   "evaluated": 48,
+   "days_passing_per_rule": {
+    "C1": 48,
+    "S1": 48,
+    "S2": 48,
+    "S3": 48,
+    "L1": 48,
+    "T5": 48
+   },
+   "first_failure": null
+  },
+  "v2": {
+   "generated": 50,
+   "excluded_reference_fails_old_limit": 2,
+   "evaluated": 48,
+   "days_passing_per_rule": {
+    "C1": 48,
+    "S1": 48,
+    "S2": 48,
+    "S3": 48,
+    "L1": 48,
+    "T5": 48
+   },
+   "first_failure": null
+  },
+  "v3": {
+   "generated": 50,
+   "excluded_reference_fails_old_limit": 1,
+   "evaluated": 49,
+   "days_passing_per_rule": {
+    "C1": 49,
+    "S1": 49,
+    "S2": 49,
+    "S3": 49,
+    "L1": 49,
+    "T5": 49
+   },
+   "first_failure": null
+  },
+  "v4": {
+   "generated": 50,
+   "excluded_reference_fails_old_limit": 2,
+   "evaluated": 48,
+   "days_passing_per_rule": {
+    "C1": 48,
+    "S1": 48,
+    "S2": 48,
+    "S3": 48,
+    "L1": 48,
+    "T5": 48
+   },
+   "first_failure": null
+  },
+  "v5": {
+   "generated": 50,
+   "excluded_reference_fails_old_limit": 49,
+   "evaluated": 1,
+   "days_passing_per_rule": {
+    "C1": 1,
+    "S1": 1,
+    "S2": 1,
+    "S3": 1,
+    "L1": 1,
+    "T5": 1
+   },
+   "first_failure": null
+  }
+ },
+ "information_only_round_three_limits": {
+  "v1": {
+   "passes_round_three_limits": true,
+   "first_failure": null
+  },
+  "v2": {
+   "passes_round_three_limits": true,
+   "first_failure": null
+  },
+  "v3": {
+   "passes_round_three_limits": true,
+   "first_failure": null
+  },
+  "v4": {
+   "passes_round_three_limits": true,
+   "first_failure": null
+  },
+  "v5": {
+   "passes_round_three_limits": true,
+   "first_failure": null
+  }
+ }
+}

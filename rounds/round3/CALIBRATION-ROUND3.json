@@ -1,0 +1,153 @@
+{
+ "rule": "ceil10(max(1.3 x reference worst over the sampled days, witness worst on the hand-built days))",
+ "multiplier": 1.3,
+ "rounding": "up to the next ten",
+ "sampled_seeds": [
+  500000,
+  500999
+ ],
+ "sampled_days_per_family": 1000,
+ "file_sha256": {
+  "scenarios_v3.py": "69346bd3bdd293f6c1a65cbc48e2eda24c5a68b333014cf9060553aaa665dbbf",
+  "sim.py": "12d71ce46ac424c3a87e1d2434ba3f36349146f85ef1dda0916d24928920ee9a",
+  "baselines.py": "baec5d2413cd0cc5e8412576a946424c6f1e7bd371829c48d4ed8bd0bf98f27d",
+  "witness.py": "87ecda3239abbd4b55194e8aafbb82d74ecac10ccb5381f0798e5cce22ca238e",
+  "envelope_probes.py": "e9725b4c11bed9feeb3c5270f0cf3f2b6a15d8cd60a192e44fbd0b122ba218b8",
+  "calibrate_round3.py": "373b2eae1ba44b6bcc4453e88f457fdd6f19d2b5018c13de24b8669487d61c2e"
+ },
+ "reference_on_sampled_days": {
+  "v1": {
+   "worst_passenger": 149,
+   "worst_seed": 500548,
+   "rules_broken": 0,
+   "lobby_p95": 144,
+   "upstairs": 149
+  },
+  "v2": {
+   "worst_passenger": 220,
+   "worst_seed": 500400,
+   "rules_broken": 0,
+   "lobby_p95": 217,
+   "upstairs": 220
+  },
+  "v3": {
+   "worst_passenger": 266,
+   "worst_seed": 500391,
+   "rules_broken": 0,
+   "lobby_p95": 243,
+   "upstairs": 266
+  },
+  "v4": {
+   "worst_passenger": 410,
+   "worst_seed": 500272,
+   "rules_broken": 0,
+   "lobby_p95": 251,
+   "upstairs": 410
+  },
+  "v5": {
+   "worst_passenger": 1421,
+   "worst_seed": 500831,
+   "rules_broken": 0,
+   "lobby_p95": 1349,
+   "upstairs": 139
+  }
+ },
+ "witness_on_hand_built_days": {
+  "v1": {
+   "everyone": [
+    265,
+    "v1:all_floors:0"
+   ],
+   "lobby_p95": [
+    0,
+    null
+   ],
+   "upper": [
+    0,
+    null
+   ],
+   "safety": 0,
+   "undelivered": 0,
+   "days": 14
+  },
+  "v2": {
+   "everyone": [
+    236,
+    "v2:pickups:0"
+   ],
+   "lobby_p95": [
+    0,
+    null
+   ],
+   "upper": [
+    0,
+    null
+   ],
+   "safety": 0,
+   "undelivered": 0,
+   "days": 21
+  },
+  "v3": {
+   "everyone": [
+    507,
+    "v3:all_floors:3"
+   ],
+   "lobby_p95": [
+    0,
+    null
+   ],
+   "upper": [
+    0,
+    null
+   ],
+   "safety": 0,
+   "undelivered": 0,
+   "days": 147
+  },
+  "v4": {
+   "everyone": [
+    581,
+    "v4:all_floors:11"
+   ],
+   "lobby_p95": [
+    0,
+    null
+   ],
+   "upper": [
+    0,
+    null
+   ],
+   "safety": 0,
+   "undelivered": 0,
+   "days": 441
+  },
+  "v5": {
+   "everyone": [
+    514,
+    "v5:scatter+scatter"
+   ],
+   "lobby_p95": [
+    489,
+    "v5:scatter+scatter"
+   ],
+   "upper": [
+    124,
+    "v5:top_down+scatter"
+   ],
+   "safety": 0,
+   "undelivered": 0,
+   "days": 24
+  }
+ },
+ "limits": {
+  "everyone": {
+   "v1": 270,
+   "v2": 290,
+   "v3": 510,
+   "v4": 590,
+   "v5": 1850
+  },
+  "lobby_p95": 1760,
+  "upper": 190
+ }
+}
